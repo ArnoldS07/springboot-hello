@@ -42,7 +42,7 @@ pipeline {
         stage('Docker deploy'){
             steps {
                
-                sh 'docker run -itd -p  80:8080 arnold08/docker_jenkins_springboot'
+                sh 'docker run -itd -p  80:8080 arnolds08/docker_jenkins_springboot'
             }
         }
         stage('Archving') { 
