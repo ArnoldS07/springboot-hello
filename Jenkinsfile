@@ -23,7 +23,7 @@ pipeline {
             steps {
                 echo "Hello Java Express"
                 sh 'ls'
-                sh 'docker build -t  arnolds08/docker_jenkins_springboot'
+                sh 'docker build -t  arnolds08/docker_jenkins_springboot .'
             }
         }
         stage('Docker Login'){
